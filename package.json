@@ -1,0 +1,27 @@
+{
+  "name": "bisection-calculator",
+  "version": "1.0.0",
+  "description": "An endterm project-based exam on Numerical Differentiation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "is-ci || rimraf dist",
+    "postinstall": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKLorenzoUSLS/Bisection-Calculator.git"
+  },
+  "keywords": [],
+  "author": "Juruel Keanu Lorenzo <keanulorenzo32@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKLorenzoUSLS/Bisection-Calculator/issues"
+  },
+  "homepage": "https://github.com/JKLorenzoUSLS/Bisection-Calculator#readme",
+  "devDependencies": {
+    "is-ci": "^3.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
