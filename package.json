@@ -4,6 +4,9 @@
   "description": "An endterm project-based exam on Numerical Differentiation",
   "main": "dist/index.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "build": "tsc",
     "clean": "is-ci || rimraf dist",
