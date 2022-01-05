@@ -17,7 +17,7 @@ client.post("/bisection", (req, res) => {
   try {
     const options = {} as Options;
 
-    if (typeof input.equation !== "string" && input.equation.length === 0) {
+    if (typeof input.equation !== "string" || input.equation.length === 0) {
       throw "Property 'equation' must be a string with a length greater than 1.";
     }
 
